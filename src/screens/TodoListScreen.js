@@ -19,6 +19,7 @@ const TodoListScreen = () => {
       dispatch(toggleTodo(id));
     };
 
+    
     const handleDelete = () => {
       dispatch(deleteTodo(id));
     };
